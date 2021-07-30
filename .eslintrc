@@ -1,0 +1,20 @@
+{
+    "extends": ["airbnb-base"],
+    "parser": "babel-eslint",
+    "env": {
+      "node": true
+    },
+    "settings": {
+      "import-resolver": {
+        "node": {
+          "paths": ["src"]
+        }
+      },
+      "react": {
+        "version": "999.999.999"
+      }
+    },
+    "rules": {
+        "no-console": 0
+    }
+}
