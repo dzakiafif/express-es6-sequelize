@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon src --exec babel-node",
     "lint": "yarn run eslint src",
-    "lint:fix": "yarn lint --fix"
+    "format": "yarn lint --fix"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
